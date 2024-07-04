@@ -1,0 +1,87 @@
+/* src/components/LandingPage.css */
+
+.landing-page {
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.profile-details h1 {
+  margin: 0;
+}
+
+.profile-details p {
+  margin: 5px 0 0 0;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ff6a27;
+}
+
+.about-section {
+  margin-top: 20px;
+}
+
+.ask-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+   /* Added shadow effect */
+}
+
+.ask-section input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.categories span {
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Added transition */
+}
+
+.categories span:hover {
+  background-color: #ff6a27;
+  transform: scale(1.05); /* Added zoom effect */
+}
+
+p {
+  color: #7d7d85;
+}
+h3{
+  font-size: 25px;
+  font-weight: 400;
+}
