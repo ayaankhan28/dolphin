@@ -5,7 +5,7 @@ import ChatHeader from './ChatHeader';
 import ReactMarkdown from 'react-markdown';
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI("AIzaSyCWoRonJRj5f_XtulJ2GtWjfvf0w4R-t5Q");
+const genAI = new GoogleGenerativeAI("***");
 
 async function run(prompt) {
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", systemInstruction: "You are Tony Stark" });
